@@ -1,0 +1,12 @@
+neuralhydrology==1.9.1
+pandas
+numpy
+xarray
+cftime
+netcdf4
+scikit-learn
+pyyaml
+duckdb
+pyarrow
+torch
+tqdm
