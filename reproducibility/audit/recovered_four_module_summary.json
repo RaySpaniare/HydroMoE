@@ -1,0 +1,48 @@
+{
+  "stations": 550,
+  "dates": 2465,
+  "rows": 1355750,
+  "params_file": "F:\\python项目\\Science科研项目\\PBM+ML\\hydrocsv(PBM)\\cmaes_optimal_params备份.json",
+  "max_abs_total_runoff_error_vs_archived": 3.790917972423813e-06,
+  "median_abs_total_runoff_error_vs_archived": 9.491462671373796e-09,
+  "max_abs_quick_plus_slow_identity_error": 6.67572021484375e-06,
+  "module_statistics": {
+    "snow_output": {
+      "mean": 0.5517847537994385,
+      "median": 0.0,
+      "max": 103.12652587890625,
+      "nonzero_fraction": 0.11622718052738337
+    },
+    "runoff_output": {
+      "mean": 0.5142448544502258,
+      "median": 0.0,
+      "max": 112.41521453857422,
+      "nonzero_fraction": 0.4683304444034667
+    },
+    "et_output": {
+      "mean": 1.9013659954071045,
+      "median": 1.5324625968933105,
+      "max": 171.79783630371094,
+      "nonzero_fraction": 0.978288032454361
+    },
+    "groundwater_output": {
+      "mean": 0.7628730535507202,
+      "median": 0.49524828791618347,
+      "max": 15.347624778747559,
+      "nonzero_fraction": 0.9722765996680804
+    }
+  },
+  "water_balance_residual": {
+    "mean": -0.29335862398147583,
+    "median": -0.16125917434692383,
+    "mean_absolute": 0.29335862398147583,
+    "max_absolute": 66.33743286132812
+  },
+  "definitions": {
+    "snow_output": "executed rainmelt/overflow released from the stateful snowpack",
+    "runoff_output": "executed surface runoff plus soil-capacity overflow (quickflow)",
+    "et_output": "executed transpiration plus soil evaporation",
+    "groundwater_output": "executed soil drainage qsb plus groundwater baseflow qg (slowflow)",
+    "pbm_total_runoff": "runoff_output + groundwater_output; exactly the archived standalone PBM target"
+  }
+}
