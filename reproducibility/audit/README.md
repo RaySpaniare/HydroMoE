@@ -1,7 +1,7 @@
 # Audit materials
 
 This directory contains recovered provenance and reconstruction materials. These files are provided to make the historical investigation inspectable; they are not a replacement for the publication archive or a corrected reproduction package.
-
+The recovered four-module script is preserved from the local forensic workspace and is not directly runnable from the repository layout because the large forcing/cache artifacts are not committed here.
 Included in this upload package:
 
 - `HYDROMOE_CRITICAL_FILE_MANIFEST.csv`: inventory of critical checkpoints/predictions and their recorded hashes/roles.
