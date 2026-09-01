@@ -7,6 +7,6 @@ Included in this upload package:
 - `HYDROMOE_CRITICAL_FILE_MANIFEST.csv`: inventory of critical checkpoints/predictions and their recorded hashes/roles.
 - `station_sensitivity.csv`: basin-level sensitivity results from historical/zero/repaired PBM comparisons where available.
 - `recovered_four_module_summary.json`: summary of recovered four-module stateful HydroPy outputs and water-balance diagnostics.
-- `recover_four_module_physical_outputs.py`: reconstruction script used for the archived stateful PBM audit.
+- `recover_four_module_physical_outputs_local_audit.py`: local forensic reconstruction script used for the archived stateful PBM audit; preserved for provenance and not directly runnable from the repository layout.
 
 Large historical files (for example full daily prediction/runoff CSVs) should be distributed as release assets or in a durable data repository rather than silently rewritten or committed over the original public code.
